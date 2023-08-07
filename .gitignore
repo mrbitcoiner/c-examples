@@ -2,4 +2,4 @@ bin
 .clangd
 **/*.d
 **/*.o
-**/test
+test/**/test
