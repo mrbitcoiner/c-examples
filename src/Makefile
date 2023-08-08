@@ -4,7 +4,8 @@ DFLAGS = -MM -MP
 
 SUBDIRS := \
 	queue \
-	event-loop
+	event-loop \
+	tcp-echo-server
 SUBDIRS_BUILD := $(patsubst %, build_%, $(SUBDIRS))
 SUBDIRS_CLEAN := $(patsubst %, clean_%, $(SUBDIRS))
 
